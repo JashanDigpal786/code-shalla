@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "topic_name": "Introduction to ReactJS",
+      "description": "ReactJS is a JavaScript library for building user interfaces, developed by Facebook. It uses components, state, and props to create reusable UI elements. ReactJS introduces JSX, a syntax extension that allows mixing HTML-like code with JavaScript. It efficiently updates and renders components using a virtual DOM. Learning ReactJS is essential for modern web development.",
+      "video_link": "https://www.youtube.com/embed/QFaFIcGhPoM?si=6BX8tABHIu6UIblm",
+      "some_code_example": "import React from 'react';\nfunction App() {\n  return <h1>Hello, React!</h1>;\n}\nexport default App;"
+    },
+    {
+      "id": 2,
+      "topic_name": "JSX in React",
+      "description": "JSX (JavaScript XML) is a syntax extension for JavaScript used in React. It allows developers to write HTML-like code that gets transformed into React elements. JSX simplifies coding by embedding markup directly in JavaScript logic. Understanding JSX is crucial for building React applications effectively.",
+      "video_link": "https://www.youtube.com/embed/7fPXI_MnBOY?si=tA4JebSw9mnvbHXY",
+      "some_code_example": "const element = <h1>Hello, JSX!</h1>;\nReactDOM.render(element, document.getElementById('root'));"
+    },
+    {
+      "id": 3,
+      "topic_name": "React Components",
+      "description": "Components are the building blocks of a React application. They can be either functional or class-based, and they enable code reuse and modularity. Functional components use hooks for state and lifecycle, while class components use methods like render() and lifecycle methods. Understanding components is essential for creating dynamic and scalable React apps.",
+      "video_link": "https://www.youtube.com/embed/Y2hgEGPzTZY?si=QHQSKs44I8Sy43Fb",
+      "some_code_example": "function Welcome() {\n  return <h1>Welcome to React</h1>;\n}\nexport default Welcome;"
+    },
+    {
+      "id": 4,
+      "topic_name": "State in React",
+      "description": "State is an object that stores dynamic data for a component. It enables React components to react to user input and events. Functional components use the useState hook to manage state, while class components use the this.state property and setState method. Managing state efficiently is vital for creating interactive React applications.",
+      "video_link": "https://www.youtube.com/embed/4ORZ1GmjaMc?si=1HCJ_wrsuLzfme_7",
+      "some_code_example": "import React, { useState } from 'react';\nfunction Counter() {\n  const [count, setCount] = useState(0);\n  return <button onClick={() => setCount(count + 1)}>Count: {count}</button>;\n}"
+    },
+    {
+      "id": 5,
+      "topic_name": "Props in React",
+      "description": "Props (short for properties) are used to pass data from one component to another in React. They are immutable and enable parent components to control child components. Props are passed as attributes in JSX and accessed using this.props in class components or directly in functional components.",
+      "video_link": "https://www.youtube.com/embed/m7OWXtbiXX8?si=knk91wCgzdIztB9p",
+      "some_code_example": "function Greeting(props) {\n  return <h1>Hello, {props.name}!</h1>;\n}\n<Greeting name=\"Alice\" />"
+    },
+    {
+      "id": 6,
+      "topic_name": "React Lifecycle Methods",
+      "description": "Lifecycle methods in class components control the behavior of components during their creation, update, and destruction phases. Common methods include componentDidMount, componentDidUpdate, and componentWillUnmount. Functional components use hooks like useEffect for similar purposes. Understanding these methods is key for handling component behavior effectively.",
+      "video_link": "https://www.youtube.com/embed/qnN_FuFNq2g?si=REOE6qk_rA5LfU5V",
+      "some_code_example": "class App extends React.Component {\n  componentDidMount() {\n    console.log('Component mounted');\n  }\n  render() {\n    return <h1>Hello, Lifecycle!</h1>;\n  }\n}"
+    },
+    {
+      "id": 7,
+      "topic_name": "React Hooks",
+      "description": "React hooks, introduced in version 16.8, allow functional components to use state and lifecycle features. Common hooks include useState, useEffect, and useContext. Hooks simplify component logic and eliminate the need for class components in many scenarios. Mastering hooks is essential for modern React development.",
+      "video_link": "https://www.youtube.com/embed/oecI26cWqzk?si=tc_qqCCglRLaFUpz",
+      "some_code_example": "import React, { useState } from 'react';\nfunction App() {\n  const [count, setCount] = useState(0);\n  return <button onClick={() => setCount(count + 1)}>Count: {count}</button>;\n}"
+    },
+    {
+      "id": 8,
+      "topic_name": "React Context API",
+      "description": "The React Context API provides a way to share data across components without passing props manually at every level. It is particularly useful for managing global state, such as themes or user authentication. Context simplifies data flow and improves code maintainability.",
+      "video_link": "https://www.youtube.com/embed/j3j8St50fNY?si=Mi0IGV9ETynfM6AS",
+      "some_code_example": "const ThemeContext = React.createContext('light');\nfunction App() {\n  return (\n    <ThemeContext.Provider value=\"dark\">\n      <Toolbar />\n    </ThemeContext.Provider>\n  );\n}"
+    },
+    {
+      "id": 9,
+      "topic_name": "React Router",
+      "description": "React Router is a library for handling routing in React applications. It allows developers to create dynamic, single-page applications with navigation. Components like BrowserRouter, Route, and Link enable the creation of paths and navigation elements. Understanding routing is crucial for building user-friendly React apps.",
+      "video_link": "https://www.youtube.com/embed/943D7U74_sQ?si=ARycXhh-9iAIq0uh",
+      "some_code_example": "import { BrowserRouter as Router, Route, Link } from 'react-router-dom';\n<Router>\n  <Link to=\"/about\">About</Link>\n  <Route path=\"/about\" component={About} />\n</Router>"
+    },
+    {
+      "id": 10,
+      "topic_name": "React Redux",
+      "description": "Redux is a state management library commonly used with React. It helps manage complex application states using a single global store. Core concepts include actions, reducers, and the store. Redux simplifies state management, especially in large applications, and improves predictability and debugging.",
+      "video_link": "https://www.youtube.com/embed/i3MWtUchXxc?si=Z7yjJ6SY9KidUFb2",
+      "some_code_example": "import { createStore } from 'redux';\nconst reducer = (state = {}, action) => state;\nconst store = createStore(reducer);\n"
+    }
+  ]
+  

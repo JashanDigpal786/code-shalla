@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "topic_name": "Introduction to Python",
+      "description": "Python is a high-level, interpreted programming language known for its simplicity and readability. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. Python is widely used in web development, data science, artificial intelligence, and more. Its extensive libraries and community support make it an excellent choice for beginners and professionals alike.",
+      "video_link": "https://www.youtube.com/embed/OZIRAavoGng?si=3218VloJacXGG4de",
+      "some_code_example": "print(\"Hello, Python!\")"
+    },
+    {
+      "id": 2,
+      "topic_name": "Data Types in Python",
+      "description": "Python provides built-in data types like integers, floats, strings, lists, tuples, and dictionaries. Understanding these data types is essential for storing and manipulating data efficiently. Python's dynamic typing allows developers to focus on logic without worrying about declaring variable types explicitly.",
+      "video_link": "https://www.youtube.com/embed/w_jm4xfXvuE?si=4PSlT84tu_uLKU3z",
+      "some_code_example": "age = 25\nheight = 5.9\nname = \"Alice\"\nis_student = True"
+    },
+    {
+      "id": 3,
+      "topic_name": "Control Flow in Python",
+      "description": "Control flow in Python is managed using conditional statements (if, elif, else), loops (for, while), and jump statements (break, continue). These constructs allow developers to dictate the flow of program execution based on conditions and iterations, enabling the creation of dynamic and interactive applications.",
+      "video_link": "https://www.youtube.com/embed/5QlCw1_N6xk?si=LNv2ZRAKISuV6WY9",
+      "some_code_example": "for i in range(5):\n  print(i)"
+    },
+    {
+      "id": 4,
+      "topic_name": "Functions in Python",
+      "description": "Functions in Python are reusable blocks of code designed to perform specific tasks. Python supports user-defined functions, lambda functions, and built-in functions. Functions help improve code modularity, readability, and reuse, making them a fundamental part of Python programming.",
+      "video_link": "https://www.youtube.com/embed/u-OmVr_fT4s?si=PW31XbqMgfhVSuEX",
+      "some_code_example": "def greet(name):\n  return f\"Hello, {name}!\"\nprint(greet(\"Alice\"))"
+    },
+    {
+      "id": 5,
+      "topic_name": "Object-Oriented Programming",
+      "description": "Python's object-oriented programming (OOP) paradigm allows developers to create classes and objects. OOP concepts like inheritance, polymorphism, encapsulation, and abstraction simplify complex software design by modeling real-world entities. Python's OOP features are easy to learn and widely applicable.",
+      "video_link": "https://www.youtube.com/embed/Rq_3gA2h1RA?si=D2gkuYNKNkkAeO4z",
+      "some_code_example": "class Car:\n  def __init__(self, brand):\n    self.brand = brand\ncar = Car(\"Toyota\")\nprint(car.brand)"
+    },
+    {
+      "id": 6,
+      "topic_name": "File Handling in Python",
+      "description": "File handling in Python allows developers to work with files for reading and writing data. Using built-in functions like open, read, write, and close, Python makes file operations simple and efficient. Understanding file handling is crucial for managing data persistence.",
+      "video_link": "https://www.youtube.com/embed/UCKbrAoFUlM?si=FyPH7meXOY9KIAt_",
+      "some_code_example": "with open(\"example.txt\", \"w\") as file:\n  file.write(\"Hello, file!\")"
+    },
+    {
+      "id": 7,
+      "topic_name": "Modules and Packages",
+      "description": "Modules and packages in Python allow code reuse and organization. Modules are files containing Python code, while packages are directories containing multiple modules. The standard library and third-party modules expand Python's functionality, enabling rapid development.",
+      "video_link": "https://www.youtube.com/embed/4yw79Rh-uJ8?si=l6LXpxarvXiZGCaB",
+      "some_code_example": "import math\nprint(math.sqrt(16))"
+    },
+    {
+      "id": 8,
+      "topic_name": "Exception Handling in Python",
+      "description": "Exception handling in Python helps developers manage runtime errors gracefully. Using try, except, finally, and raise statements, programs can handle unexpected issues without crashing. Exception handling is essential for building robust applications.",
+      "video_link": "https://www.youtube.com/embed/qrueF1F9ndE?si=rR3RRad4hxsIbQuW",
+      "some_code_example": "try:\n  num = int(input(\"Enter a number: \"))\nexcept ValueError:\n  print(\"Invalid input\")"
+    },
+    {
+      "id": 9,
+      "topic_name": "List Comprehensions",
+      "description": "List comprehensions in Python provide a concise way to create lists based on existing sequences. They are often used for filtering, mapping, and transforming data. List comprehensions improve code readability and reduce the need for verbose loops.",
+      "video_link": "https://www.youtube.com/embed/INYflk6of00?si=YZ4dixu8KEETWo-v",
+      "some_code_example": "squares = [x**2 for x in range(10)]\nprint(squares)"
+    },
+    {
+      "id": 10,
+      "topic_name": "Decorators in Python",
+      "description": "Decorators in Python are higher-order functions used to modify the behavior of other functions or methods. They are commonly used for logging, validation, and authorization. Understanding decorators is essential for advanced Python programming.",
+      "video_link": "https://www.youtube.com/embed/BE-L7xu8pO4?si=5KOKYb5RCqkpARPk",
+      "some_code_example": "def decorator(func):\n  def wrapper():\n    print(\"Before the function call\")\n    func()\n    print(\"After the function call\")\n  return wrapper\n@decorator\ndef say_hello():\n  print(\"Hello!\")\nsay_hello()"
+    }
+  ]
+  

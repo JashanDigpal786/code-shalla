@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "topic_name": "CSS Syntax",
+      "description": "CSS (Cascading Style Sheets) syntax consists of selectors and declarations. A selector targets an HTML element, and the declaration specifies the style to apply, enclosed in curly braces. Declarations consist of property-value pairs, separated by a colon. Multiple declarations are separated by semicolons. Mastering CSS syntax is crucial for effectively styling web pages and maintaining consistency across a site.",
+      "video_link": "https://www.youtube.com/embed/G8r00ZNopTE?si=x6Ld9TyKcwncGgtM",
+      "some_code_example": "h1 {\n  color: blue;\n  font-size: 24px;\n}"
+    },
+    {
+      "id": 2,
+      "topic_name": "CSS Selectors",
+      "description": "CSS selectors are used to target HTML elements for styling. Types include element selectors, class selectors (e.g., .class), ID selectors (e.g., #id), and pseudo-classes (e.g., :hover). Combining selectors allows for complex targeting. Understanding selectors is fundamental for applying styles effectively and efficiently in web development.",
+      "video_link": "https://www.youtube.com/embed/ZNskBxLVOfs?si=aGy7Ht-HDXEsjJRG",
+      "some_code_example": "p {\n  color: red;\n}\n#main {\n  background-color: yellow;\n}\n.class {\n  font-weight: bold;\n}"
+    },
+    {
+      "id": 3,
+      "topic_name": "CSS Box Model",
+      "description": "The CSS box model describes how elements are structured and spaced on a web page. Each element is represented as a rectangular box, consisting of margins, borders, padding, and the actual content. Understanding the box model is essential for layout design and solving spacing issues effectively.",
+      "video_link": "https://www.youtube.com/embed/RxGkUUJUolo?si=zf06aBY6ZPsrk5uv",
+      "some_code_example": "div {\n  margin: 10px;\n  padding: 15px;\n  border: 2px solid black;\n}"
+    },
+    {
+      "id": 4,
+      "topic_name": "CSS Flexbox",
+      "description": "Flexbox is a CSS layout module that makes it easy to design flexible and responsive layouts. It arranges items within a container along a single axis, either horizontally or vertically. Properties like justify-content, align-items, and flex-wrap control the positioning and distribution of elements.",
+      "video_link": "https://www.youtube.com/embed/5Ex2F7ZEAjk?si=-UIZ3YocRwQ1sxER",
+      "some_code_example": ".container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}"
+    },
+    {
+      "id": 5,
+      "topic_name": "CSS Grid",
+      "description": "CSS Grid is a powerful layout system that enables developers to design complex and responsive web page layouts. It works by defining rows and columns in a grid container and placing items within the grid. Properties like grid-template-rows and grid-template-columns allow precise control of layout.",
+      "video_link": "https://www.youtube.com/embed/9zBsdzdE4sM?si=vJvgYaIodC7hyv6_",
+      "some_code_example": ".container {\n  display: grid;\n  grid-template-columns: 1fr 2fr;\n  grid-gap: 10px;\n}"
+    },
+    {
+      "id": 6,
+      "topic_name": "CSS Media Queries",
+      "description": "Media queries enable developers to create responsive designs by applying styles based on the user's device characteristics, such as screen size or orientation. This technique is essential for creating mobile-friendly websites that adapt seamlessly across different devices.",
+      "video_link": "https://www.youtube.com/embed/P_vkS4UJNDk?si=CG9KGigYOt4ZuhnS",
+      "some_code_example": "@media (max-width: 600px) {\n  body {\n    background-color: lightblue;\n  }\n}"
+    },
+    {
+      "id": 7,
+      "topic_name": "CSS Positioning",
+      "description": "CSS positioning allows developers to place elements in specific locations on a web page. The position property can be set to static, relative, absolute, fixed, or sticky. Understanding positioning is crucial for creating advanced layouts and designs.",
+      "video_link": "https://www.youtube.com/embed/YEmdHbQBCSQ?si=cNPbIB-kVeCdqfP2",
+      "some_code_example": ".box {\n  position: absolute;\n  top: 50px;\n  left: 100px;\n}"
+    },
+    {
+      "id": 8,
+      "topic_name": "CSS Transitions",
+      "description": "CSS transitions enable smooth changes between styles, enhancing user experience with animations. Properties like transition-property, transition-duration, and transition-timing-function control the behavior of transitions. They are widely used for hover effects and interactive elements.",
+      "video_link": "https://www.youtube.com/embed/Nloq6uzF8RQ?si=FBlANBFVS8VCZJFl",
+      "some_code_example": "button {\n  transition: background-color 0.3s ease;\n}\nbutton:hover {\n  background-color: darkblue;\n}"
+    },
+    {
+      "id": 9,
+      "topic_name": "CSS Animations",
+      "description": "CSS animations allow developers to create complex animations by defining keyframes. The @keyframes rule specifies the animation steps, while the animation property controls its execution. Animations are used to enhance the visual appeal of web pages.",
+      "video_link": "https://www.youtube.com/embed/_OEUbgLTWH0?si=uIRiJcKUPhizSBJ-",
+      "some_code_example": "@keyframes slideIn {\n  from {\n    transform: translateX(-100%);\n  }\n  to {\n    transform: translateX(0);\n  }\n}\n.box {\n  animation: slideIn 1s ease-in-out;\n}"
+    },
+    {
+      "id": 10,
+      "topic_name": "CSS Variables",
+      "description": "CSS variables, also known as custom properties, enable developers to store reusable values in stylesheets. They are defined with the -- prefix and accessed using the var() function. CSS variables simplify code maintenance and enable consistent theming.",
+      "video_link": "https://www.youtube.com/embed/5wLrz_zUwoU?si=TwBzOq8hSau9-jOa",
+      "some_code_example": ":root {\n  --main-color: #3498db;\n}\nbutton {\n  background-color: var(--main-color);\n}"
+    }
+  ]
+  

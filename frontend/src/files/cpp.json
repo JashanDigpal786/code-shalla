@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "topic_name": "C++ Basics",
+      "description": "C++ is a powerful, high-performance programming language. It is widely used for system software, game development, and competitive programming. Learning C++ begins with understanding syntax, variables, and basic input/output operations. C++ is both an object-oriented and procedural programming language, offering flexibility for a variety of applications.",
+      "video_link": "https://www.youtube.com/embed/dCNSDeeKCfs?si=vhTzVLIKeO-VGY3T",
+      "some_code_example": "#include <iostream>\nusing namespace std;\nint main() {\n  cout << \"Hello, C++!\" << endl;\n  return 0;\n}"
+    },
+    {
+      "id": 2,
+      "topic_name": "Data Types in C++",
+      "description": "C++ provides various data types such as int, float, char, and bool, which determine the kind of data a variable can store. Derived types like arrays and pointers, as well as user-defined types like classes, offer flexibility. Understanding data types is essential for effective programming in C++.",
+      "video_link": "https://www.youtube.com/embed/MiK5tamc-HE?si=upSuNi9XOJpPQ4jg",
+      "some_code_example": "int age = 25;\nfloat height = 5.9;\nchar grade = 'A';\nbool isStudent = true;"
+    },
+    {
+      "id": 3,
+      "topic_name": "Control Structures in C++",
+      "description": "Control structures in C++ include decision-making statements (if, switch), loops (for, while, do-while), and jump statements (break, continue). They dictate the flow of a program, allowing conditional execution and repetition. Mastery of control structures is fundamental for writing logical and efficient code.",
+      "video_link": "https://www.youtube.com/embed/0YS8mLNrqhw?si=TIvhI50OpMlkFheS",
+      "some_code_example": "for (int i = 0; i < 5; i++) {\n  cout << i << endl;\n}"
+    },
+    {
+      "id": 4,
+      "topic_name": "Functions in C++",
+      "description": "Functions in C++ are blocks of code designed to perform specific tasks. They enable code reuse, modularity, and readability. Functions can accept parameters and return values. Understanding function declaration, definition, and invocation is crucial for developing structured C++ programs.",
+      "video_link": "https://www.youtube.com/embed/TcNBtrG1We4?si=cUiXkVidd3dinBiq",
+      "some_code_example": "int add(int a, int b) {\n  return a + b;\n}\nint main() {\n  cout << add(3, 4) << endl;\n  return 0;\n}"
+    },
+    {
+      "id": 5,
+      "topic_name": "Object-Oriented Programming in C++",
+      "description": "C++ supports object-oriented programming (OOP) concepts such as classes, objects, inheritance, and polymorphism. OOP enables modular, reusable, and maintainable code. Learning these concepts is essential for leveraging the full potential of C++ for complex software development.",
+      "video_link": "https://www.youtube.com/embed/i2OOPAvCDK0?si=nmQ2v35-ViO5QKJU",
+      "some_code_example": "class Car {\npublic:\n  string brand;\n  Car(string b) { brand = b; }\n};\nint main() {\n  Car car1(\"Toyota\");\n  cout << car1.brand << endl;\n  return 0;\n}"
+    },
+    {
+      "id": 6,
+      "topic_name": "Pointers in C++",
+      "description": "Pointers are variables that store memory addresses. They allow dynamic memory allocation, efficient data handling, and manipulation of arrays and functions. Understanding pointers is critical for mastering advanced C++ concepts, such as dynamic data structures.",
+      "video_link": "https://www.youtube.com/embed/Ms75d_pCgIw?si=0rv9eKRZYom1VLWV",
+      "some_code_example": "int a = 10;\nint* ptr = &a;\ncout << *ptr << endl;"
+    },
+    {
+      "id": 7,
+      "topic_name": "Templates in C++",
+      "description": "Templates in C++ enable generic programming, allowing functions and classes to operate with different data types without code duplication. Templates improve code efficiency and flexibility, making them essential for advanced C++ programming.",
+      "video_link": "https://www.youtube.com/embed/Q7LWewcNpIg?si=5f_yLtTlpDI7JjLQ",
+      "some_code_example": "template <typename T>\nT add(T a, T b) {\n  return a + b;\n}\ncout << add(3, 4) << endl;"
+    },
+    {
+      "id": 8,
+      "topic_name": "Standard Template Library (STL)",
+      "description": "The Standard Template Library (STL) provides pre-defined classes and functions for common data structures (like vectors, lists, maps) and algorithms (like sorting, searching). STL simplifies coding and enhances productivity for C++ developers.",
+      "video_link": "https://www.youtube.com/embed/fmKNmoZxiVU?si=uxdnMyepRFp7jRkN",
+      "some_code_example": "#include <vector>\n#include <algorithm>\nvector<int> nums = {1, 3, 2};\nsort(nums.begin(), nums.end());"
+    },
+    {
+      "id": 9,
+      "topic_name": "File Handling in C++",
+      "description": "File handling allows reading from and writing to files. C++ provides libraries like fstream to manage file operations. Understanding file handling is crucial for creating programs that persist data beyond runtime.",
+      "video_link": "https://www.youtube.com/embed/OJ8KYsaneZM?si=8cdeUwcD9gXWFlvV",
+      "some_code_example": "#include <fstream>\nofstream file(\"example.txt\");\nfile << \"Hello, file!\";\nfile.close();"
+    },
+    {
+      "id": 10,
+      "topic_name": "Exception Handling in C++",
+      "description": "Exception handling in C++ allows developers to handle runtime errors gracefully. Using try, catch, and throw blocks, errors can be anticipated and managed effectively, improving program robustness and user experience.",
+      "video_link": "https://www.youtube.com/embed/lMhdiN7l4ig?si=KnqCnPFwx5aSAjM8",
+      "some_code_example": "try {\n  if (num == 0) throw \"Division by zero\";\n} catch (const char* msg) {\n  cout << msg << endl;\n}"
+    }
+  ]
+  

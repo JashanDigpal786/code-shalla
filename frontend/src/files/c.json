@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "topic_name": "Introduction to C",
+      "description": "C is a general-purpose programming language known for its efficiency and low-level memory manipulation capabilities. Developed in the early 1970s, it is widely used for system programming, embedded systems, and application development. Learning C provides a strong foundation for understanding computer architecture and programming concepts.",
+      "video_link": "https://www.youtube.com/embed/gEJBFKDkqTE?si=HDUQUvKUYaE2wQpf",
+      "some_code_example": "#include <stdio.h>\nint main() {\n  printf(\"Hello, C!\\n\");\n  return 0;\n}"
+    },
+    {
+      "id": 2,
+      "topic_name": "Variables and Data Types",
+      "description": "C provides fundamental data types like int, float, char, and double, which are used to define variables. Understanding data types is crucial for storing and manipulating data effectively. Additionally, C supports modifiers like short, long, signed, and unsigned to adjust the size and range of data types.",
+      "video_link": "https://www.youtube.com/embed/PDzKufPL51Q?si=LWxSg8WilOfsRvHu",
+      "some_code_example": "int age = 30;\nfloat height = 5.8;\nchar grade = 'A';\ndouble pi = 3.14159;"
+    },
+    {
+      "id": 3,
+      "topic_name": "Control Structures",
+      "description": "C offers control structures such as if-else, switch-case, loops (for, while, do-while), and jump statements (break, continue, goto). These allow developers to control the flow of execution based on conditions and repetition. Mastering control structures is essential for writing logical programs in C.",
+      "video_link": "https://www.youtube.com/embed/dVsEcOj9G3I?si=K3gw66pmSorENdpq",
+      "some_code_example": "for (int i = 0; i < 5; i++) {\n  printf(\"%d\\n\", i);\n}"
+    },
+    {
+      "id": 4,
+      "topic_name": "Functions in C",
+      "description": "Functions are reusable blocks of code designed to perform specific tasks in C. They enable modularity, making programs easier to read, debug, and maintain. Functions can accept arguments and return values. Understanding functions is fundamental to structured programming in C.",
+      "video_link": "https://www.youtube.com/embed/SK5gBnwN4dg?si=UAjKEgSaJEJbiO8a",
+      "some_code_example": "int add(int a, int b) {\n  return a + b;\n}\nint main() {\n  printf(\"Sum: %d\\n\", add(3, 4));\n  return 0;\n}"
+    },
+    {
+      "id": 5,
+      "topic_name": "Pointers",
+      "description": "Pointers are variables that store memory addresses. They are a powerful feature of C, enabling dynamic memory allocation, efficient array handling, and passing by reference. Understanding pointers is essential for advanced C programming and system-level development.",
+      "video_link": "https://www.youtube.com/embed/xHoGGbtFZCo?si=Acn0XU932RieKtHs",
+      "some_code_example": "int a = 10;\nint* ptr = &a;\nprintf(\"Value: %d\\n\", *ptr);"
+    },
+    {
+      "id": 6,
+      "topic_name": "Arrays in C",
+      "description": "Arrays are collections of elements of the same data type stored in contiguous memory locations. They are used for storing and manipulating large datasets efficiently. Understanding arrays is critical for tasks like sorting, searching, and dynamic memory allocation in C.",
+      "video_link": "https://www.youtube.com/embed/Gn7PGIEJejs?si=66leuSTqNeDTBu51",
+      "some_code_example": "int arr[5] = {1, 2, 3, 4, 5};\nfor (int i = 0; i < 5; i++) {\n  printf(\"%d \", arr[i]);\n}"
+    },
+    {
+      "id": 7,
+      "topic_name": "Structures in C",
+      "description": "Structures in C are user-defined data types that group related variables of different types into a single unit. They are used for organizing and managing complex data. Understanding structures is key to implementing real-world applications and efficient data handling.",
+      "video_link": "https://www.youtube.com/embed/5L82edWRiIQ?si=bWnxQpHbC7lPJqmk",
+      "some_code_example": "struct Person {\n  char name[50];\n  int age;\n};\nstruct Person p = {\"John\", 30};\nprintf(\"Name: %s, Age: %d\\n\", p.name, p.age);"
+    },
+    {
+      "id": 8,
+      "topic_name": "Dynamic Memory Allocation",
+      "description": "Dynamic memory allocation allows programs to allocate memory at runtime using functions like malloc, calloc, realloc, and free. It is essential for creating flexible and efficient programs. Understanding this concept is crucial for building dynamic data structures in C.",
+      "video_link": "https://www.youtube.com/embed/7RNesIP9Ot0?si=_QECUpv2WDPGJ0mo",
+      "some_code_example": "int* ptr = (int*) malloc(sizeof(int));\n*ptr = 10;\nprintf(\"Value: %d\\n\", *ptr);\nfree(ptr);"
+    },
+    {
+      "id": 9,
+      "topic_name": "File Handling in C",
+      "description": "File handling enables reading from and writing to files, allowing data to persist beyond program execution. Functions like fopen, fclose, fread, and fwrite are used to manage file operations. Understanding file handling is critical for developing robust applications in C.",
+      "video_link": "https://www.youtube.com/embed/OJ8KYsaneZM?si=15VkeQWrJ-COjD1e",
+      "some_code_example": "FILE *file = fopen(\"example.txt\", \"w\");\nfprintf(file, \"Hello, file!\\n\");\nfclose(file);"
+    },
+    {
+      "id": 10,
+      "topic_name": "Preprocessors and Macros",
+      "description": "Preprocessors in C handle directives like #include and #define before compilation. Macros are code snippets that are expanded by the preprocessor. Understanding preprocessors and macros is vital for optimizing and modularizing C programs.",
+      "video_link": "https://www.youtube.com/embed/CRk7NzQdp40?si=SIPmiKYlNpv83APV",
+      "some_code_example": "#define PI 3.14159\nprintf(\"PI: %f\\n\", PI);"
+    }
+  ]
+  

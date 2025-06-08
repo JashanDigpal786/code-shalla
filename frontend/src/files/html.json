@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "topic_name": "Introduction to HTML",
+      "description": "HTML (HyperText Markup Language) is the standard language used to create web pages. It provides the basic structure for web documents by using tags and elements to define content. HTML is the backbone of all web development, and understanding it is essential for building websites.",
+      "video_link": "https://www.youtube.com/embed/it1rTvBcfRg?si=q8eC4CgNb5xDSSDa",
+      "some_code_example": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>My First Webpage</title>\n  </head>\n  <body>\n    <h1>Hello, World!</h1>\n  </body>\n</html>"
+    },
+    {
+      "id": 2,
+      "topic_name": "HTML Elements and Tags",
+      "description": "HTML elements are the building blocks of a webpage. Each element is defined by an opening tag, content, and a closing tag. HTML tags such as <p> for paragraphs, <h1> for headings, <a> for links, and <img> for images are used to structure the content of a page.",
+      "video_link": "https://www.youtube.com/embed/vIoO52MdZFE?si=7QbNBi3MuR0Mvlg1",
+      "some_code_example": "<p>This is a paragraph.</p>\n<a href='https://example.com'>Click here</a>"
+    },
+    {
+      "id": 3,
+      "topic_name": "HTML Attributes",
+      "description": "HTML attributes provide additional information about elements. They are placed within the opening tag and are used to configure element behavior or style. Common attributes include 'href' for links, 'src' for images, 'alt' for alternative text, and 'id' for unique identification.",
+      "video_link": "https://www.youtube.com/embed/yMX901oVtn8?si=sU0GzyaBoyU0zq17",
+      "some_code_example": "<img src='image.jpg' alt='An image'>\n<a href='https://example.com' target='_blank'>Visit Site</a>"
+    },
+    {
+      "id": 4,
+      "topic_name": "HTML Forms",
+      "description": "HTML forms are used to collect user input. Forms use various input types like text fields, radio buttons, checkboxes, and buttons. The form data is sent to a server for processing when the user submits it. Forms are essential for web applications like login pages and contact forms.",
+      "video_link": "https://www.youtube.com/embed/VLeERv_dR6Q?si=CVEPBaAR1yWGyYcL",
+      "some_code_example": "<form action='/submit' method='POST'>\n  <input type='text' name='username' placeholder='Enter username'>\n  <input type='submit' value='Submit'>\n</form>"
+    },
+    {
+      "id": 5,
+      "topic_name": "HTML Lists",
+      "description": "HTML provides two main types of lists: ordered lists (<ol>) and unordered lists (<ul>). Ordered lists are used for items that need to be displayed in a specific sequence, while unordered lists are for items with no specific order. Lists are often used for navigation menus, item groups, or outlines.",
+      "video_link": "https://www.youtube.com/embed/-QuK8taGLCs?si=MqiJMEODKqTQtm2n",
+      "some_code_example": "<ul>\n  <li>Item 1</li>\n  <li>Item 2</li>\n  <li>Item 3</li>\n</ul>"
+    },
+    {
+      "id": 6,
+      "topic_name": "HTML Tables",
+      "description": "HTML tables allow data to be structured into rows and columns. Tables are defined with <table>, <tr> for rows, <td> for data cells, and <th> for table headers. They are useful for displaying structured data such as spreadsheets, schedules, or reports.",
+      "video_link": "https://www.youtube.com/embed/e62D-aayveY",
+      "some_code_example": "<table>\n  <tr>\n    <th>Name</th>\n    <th>Age</th>\n  </tr>\n  <tr>\n    <td>John</td>\n    <td>30</td>\n  </tr>\n</table>"
+    },
+    {
+      "id": 7,
+      "topic_name": "HTML Multimedia Elements",
+      "description": "HTML allows embedding multimedia content such as images, audio, and video using elements like <img>, <audio>, and <video>. These elements support various file formats, providing a rich multimedia experience for users on the web.",
+      "video_link": "https://www.youtube.com/embed/kMrXG5EuJP0?si=eDmbfvy4D5tsc30V",
+      "some_code_example": "<video controls>\n  <source src='movie.mp4' type='video/mp4'>\n  Your browser does not support the video tag.\n</video>"
+    },
+    {
+      "id": 8,
+      "topic_name": "HTML Semantic Tags",
+      "description": "Semantic HTML tags provide meaning and structure to the content of a webpage. Elements like <header>, <footer>, <article>, <section>, and <nav> help make web pages more accessible and SEO-friendly. They improve the readability of the code and help search engines understand the content better.",
+      "video_link": "https://www.youtube.com/embed/Nmaf4ir3QkM?si=LlDNUCOQ0NvDI_ow",
+      "some_code_example": "<header>\n  <h1>Website Header</h1>\n</header>\n<section>\n  <h2>Main Content</h2>\n</section>"
+    },
+    {
+      "id": 9,
+      "topic_name": "HTML Meta Tags",
+      "description": "Meta tags provide metadata about the HTML document, such as its character encoding, author, viewport settings, and keywords. Meta tags are placed in the <head> section of an HTML document and help search engines and browsers understand the page content.",
+      "video_link": "https://www.youtube.com/embed/CbglXHhu-gc?si=i-YeDiVHq9kNsZiC",
+      "some_code_example": "<meta charset='UTF-8'>\n<meta name='description' content='A sample webpage'>"
+    },
+    {
+      "id": 10,
+      "topic_name": "HTML5 Features",
+      "description": "HTML5 introduced many new features to enhance web development, such as new input types, the <canvas> element for drawing, and the <article>, <section>, <nav>, and <footer> tags for better page structure. HTML5 also improved multimedia support and provides APIs for offline web apps and geolocation.",
+      "video_link": "https://www.youtube.com/embed/b37JZSWSZXc?si=FZRB_Qf7U5_wRxZA",
+      "some_code_example": "<canvas id='myCanvas' width='200' height='200'></canvas>\n<script>\n  var canvas = document.getElementById('myCanvas');\n  var ctx = canvas.getContext('2d');\n  ctx.fillRect(20, 20, 150, 100);\n</script>"
+    }
+  ]
+  

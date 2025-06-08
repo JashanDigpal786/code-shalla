@@ -1,0 +1,72 @@
+[
+    {
+      "id": 1,
+      "topic_name": "Introduction to Java",
+      "description": "Java is a high-level, object-oriented programming language known for its platform independence through the Java Virtual Machine (JVM). It is widely used in web development, mobile applications, and enterprise systems due to its robustness and scalability. Java's vast libraries and frameworks make it a powerful choice for developers.",
+      "video_link": "https://www.youtube.com/embed/ADDuhhfccsM?si=tPhBVgtMNW648hoF",
+      "some_code_example": "public class Main {\n  public static void main(String[] args) {\n    System.out.println(\"Hello, Java!\");\n  }\n}"
+    },
+    {
+      "id": 2,
+      "topic_name": "Data Types in Java",
+      "description": "Java provides a range of data types such as primitive types (int, float, char, boolean) and non-primitive types (String, Arrays, Classes). Understanding these types is crucial for writing efficient and type-safe code.",
+      "video_link": "https://www.youtube.com/embed/KPqSd6sKNPE?si=aPceyxa8vJQiPYjj",
+      "some_code_example": "int age = 25;\ndouble height = 5.9;\nString name = \"Alice\";\nboolean isStudent = true;"
+    },
+    {
+      "id": 3,
+      "topic_name": "Control Flow in Java",
+      "description": "Control flow in Java is managed using conditional statements (if, else, switch), loops (for, while, do-while), and break/continue statements. These constructs enable developers to manage the logical flow of programs.",
+      "video_link": "https://www.youtube.com/embed/EsR7foDs_jA?si=cZFE6-Lr8zG5R0P6",
+      "some_code_example": "for (int i = 0; i < 5; i++) {\n  System.out.println(i);\n}"
+    },
+    {
+      "id": 4,
+      "topic_name": "Methods in Java",
+      "description": "Methods in Java are reusable blocks of code that perform specific tasks. Java supports both static and instance methods. Understanding how to define and call methods is a key aspect of Java programming.",
+      "video_link": "https://www.youtube.com/embed/7AanUxN-NzI?si=2FK-D23ighvyi78n",
+      "some_code_example": "public static int add(int a, int b) {\n  return a + b;\n}\nSystem.out.println(add(5, 3));"
+    },
+    {
+      "id": 5,
+      "topic_name": "Object-Oriented Programming in Java",
+      "description": "Java's object-oriented programming (OOP) paradigm emphasizes the use of classes and objects. Core OOP concepts like inheritance, polymorphism, encapsulation, and abstraction enable developers to build modular and reusable code.",
+      "video_link": "https://www.youtube.com/embed/AEo4KgwKYoU?si=P9PWIXiMNYZOUurY",
+      "some_code_example": "class Car {\n  String brand;\n  Car(String brand) {\n    this.brand = brand;\n  }\n}\nCar car = new Car(\"Toyota\");\nSystem.out.println(car.brand);"
+    },
+    {
+      "id": 6,
+      "topic_name": "File Handling in Java",
+      "description": "File handling in Java allows developers to read from and write to files using classes like FileReader, FileWriter, and BufferedReader. It is essential for handling persistent data in Java applications.",
+      "video_link": "https://www.youtube.com/embed/SslMi6ptwH8?si=kDCcUoxG3YtauMRX",
+      "some_code_example": "try (FileWriter file = new FileWriter(\"example.txt\")) {\n  file.write(\"Hello, file!\");\n} catch (IOException e) {\n  e.printStackTrace();\n}"
+    },
+    {
+      "id": 7,
+      "topic_name": "Packages in Java",
+      "description": "Packages in Java provide a way to organize classes and interfaces. They enable modular programming and prevent naming conflicts. Java's standard library contains many built-in packages for various tasks.",
+      "video_link": "https://www.youtube.com/embed/rcUvom0yj4g?si=FD3MmfnOBh_kFLH-",
+      "some_code_example": "import java.util.ArrayList;\nArrayList<String> list = new ArrayList<>();\nlist.add(\"Hello\");\nSystem.out.println(list);"
+    },
+    {
+      "id": 8,
+      "topic_name": "Exception Handling in Java",
+      "description": "Java's exception handling mechanism helps developers manage runtime errors using try, catch, finally, and throw/throws keywords. It ensures that applications handle unexpected situations gracefully.",
+      "video_link": "https://www.youtube.com/embed/adTDlH0lhaA?si=80aAritFBdvvv_Ub",
+      "some_code_example": "try {\n  int num = Integer.parseInt(\"abc\");\n} catch (NumberFormatException e) {\n  System.out.println(\"Invalid input\");\n}"
+    },
+    {
+      "id": 9,
+      "topic_name": "Collections Framework",
+      "description": "The Java Collections Framework provides a set of classes and interfaces for storing and manipulating groups of objects. Common collections include ArrayList, HashMap, and HashSet. It is a powerful tool for data management in Java.",
+      "video_link": "https://www.youtube.com/embed/8SoPJYABryI?si=F6o7PACAUjBHv2-I",
+      "some_code_example": "import java.util.HashMap;\nHashMap<Integer, String> map = new HashMap<>();\nmap.put(1, \"One\");\nmap.put(2, \"Two\");\nSystem.out.println(map);"
+    },
+    {
+      "id": 10,
+      "topic_name": "Annotations in Java",
+      "description": "Annotations in Java provide metadata for code. Common annotations like @Override, @Deprecated, and custom annotations are used for various purposes like configuration, code documentation, and runtime behavior.",
+      "video_link": "https://www.youtube.com/embed/g2-KKdpdhW4?si=IOa-dyoQUOCpF2Bt",
+      "some_code_example": "@Override\npublic String toString() {\n  return \"This is a custom toString method\";\n}"
+    }
+]

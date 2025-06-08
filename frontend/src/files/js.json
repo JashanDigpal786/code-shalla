@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "topic_name": "Introduction to JavaScript",
+      "description": "JavaScript is a dynamic, high-level programming language used primarily for building interactive websites. It is one of the three core technologies of web development, along with HTML and CSS. JavaScript enables developers to create dynamic content, control multimedia, animate images, and much more. It's supported by all modern web browsers.",
+      "video_link": "https://www.youtube.com/embed/0WOSwM-VuYs?si=z6J8yetATUD67I5T",
+      "some_code_example": "console.log('Hello, JavaScript!');"
+    },
+    {
+      "id": 2,
+      "topic_name": "Variables and Data Types in JavaScript",
+      "description": "JavaScript supports various data types, such as numbers, strings, booleans, objects, arrays, and null. Variables are declared using keywords like 'var', 'let', and 'const'. Understanding JavaScript’s dynamic typing and how to declare variables is essential for building functional and flexible applications.",
+      "video_link": "https://www.youtube.com/embed/Hrd3SfCCXZw?si=_pLlkRsGiuPw6PS7",
+      "some_code_example": "let name = 'Alice';\nconst age = 30;\nlet isStudent = true;"
+    },
+    {
+      "id": 3,
+      "topic_name": "Control Flow in JavaScript",
+      "description": "JavaScript provides several control flow structures like if-else, switch-case, and loops (for, while, do-while). These structures allow conditional execution and repeated actions in code. Mastering control flow is essential to writing dynamic and efficient JavaScript code.",
+      "video_link": "https://www.youtube.com/embed/Wc1rH4uNKIE?si=XwFay_3U6TSfeXEj",
+      "some_code_example": "for (let i = 0; i < 5; i++) {\n  console.log(i);\n}"
+    },
+    {
+      "id": 4,
+      "topic_name": "Functions in JavaScript",
+      "description": "Functions in JavaScript are reusable blocks of code designed to perform specific tasks. Functions can be declared using function expressions, declarations, or arrow functions. Understanding how to define and call functions is essential for modular, efficient, and maintainable code.",
+      "video_link": "https://www.youtube.com/embed/7pgKv3ZVn_Q?si=AM4umMqVKl8HFMPd",
+      "some_code_example": "function greet(name) {\n  return 'Hello, ' + name;\n}\nconsole.log(greet('Alice'));"
+    },
+    {
+      "id": 5,
+      "topic_name": "Objects in JavaScript",
+      "description": "Objects are one of the most important data types in JavaScript. They are collections of key-value pairs, where keys are strings (or symbols) and values can be any data type, including functions. Objects are used to store related data and behaviors, making them an essential part of JavaScript programming.",
+      "video_link": "https://www.youtube.com/embed/lo7o91qLzxc?si=EA7viPZ-S9igeNdf",
+      "some_code_example": "const person = {\n  name: 'Alice',\n  age: 30,\n  greet: function() { return 'Hello, ' + this.name; }\n};\nconsole.log(person.greet());"
+    },
+    {
+      "id": 6,
+      "topic_name": "Arrays in JavaScript",
+      "description": "Arrays are ordered collections of elements in JavaScript. They can store data of any type and can be dynamically resized. JavaScript provides many array methods for adding, removing, and accessing elements. Understanding arrays is fundamental for handling lists of data efficiently.",
+      "video_link": "https://www.youtube.com/embed/zxc6CHNQWsw?si=A38EiqmchcYvalks",
+      "some_code_example": "let numbers = [1, 2, 3, 4, 5];\nnumbers.push(6);\nconsole.log(numbers);"
+    },
+    {
+      "id": 7,
+      "topic_name": "Events in JavaScript",
+      "description": "Events in JavaScript are actions that occur in the system, often triggered by user interactions such as clicking, scrolling, or pressing keys. Event handling allows developers to create interactive web pages. JavaScript provides event listeners to capture and respond to these events.",
+      "video_link": "https://www.youtube.com/embed/YiOlaiscqDY?si=0SWJZUxRjwaPBPU8",
+      "some_code_example": "document.getElementById('btn').addEventListener('click', function() {\n  alert('Button clicked!');\n});"
+    },
+    {
+      "id": 8,
+      "topic_name": "DOM Manipulation in JavaScript",
+      "description": "The DOM (Document Object Model) allows JavaScript to interact with HTML elements. Through DOM manipulation, JavaScript can dynamically update the content, structure, and style of a web page. This is essential for creating interactive and dynamic web applications.",
+      "video_link": "https://www.youtube.com/embed/_HW3yzagxgM?si=t-coexHe6ggMRAip",
+      "some_code_example": "document.getElementById('heading').innerText = 'Updated Heading';"
+    },
+    {
+      "id": 9,
+      "topic_name": "Asynchronous JavaScript (Promises & Async/Await)",
+      "description": "Asynchronous programming in JavaScript allows non-blocking code execution. Promises and async/await simplify handling asynchronous operations like fetching data from APIs or reading files. Understanding asynchronous programming is essential for building fast, responsive web applications.",
+      "video_link": "https://www.youtube.com/embed/8AyVGQd1fWc?si=AOgo6u0MtZS8WXiP",
+      "some_code_example": "fetch('https://api.example.com/data')\n  .then(response => response.json())\n  .then(data => console.log(data));"
+    },
+    {
+      "id": 10,
+      "topic_name": "ES6+ Features in JavaScript",
+      "description": "ES6 (ECMAScript 2015) introduced many new features to JavaScript, such as let/const, arrow functions, template literals, classes, and modules. These features help developers write cleaner, more readable, and maintainable code. ES6+ continues to evolve with newer versions offering features like async/await, destructuring, and spread/rest operators.",
+      "video_link": "https://www.youtube.com/embed/ziyERWCEZp4?si=1U17cGBy0jlrVOBR",
+      "some_code_example": "const greet = name => `Hello, ${name}!`;\nconsole.log(greet('Alice'));"
+    }
+  ]
+  

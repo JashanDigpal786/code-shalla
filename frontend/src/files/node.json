@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "topic_name": "Introduction to Node.js",
+      "description": "Node.js is a runtime environment that allows developers to run JavaScript code on the server side. It uses the V8 JavaScript engine, developed by Google, and provides non-blocking, event-driven architecture, making it suitable for building scalable and real-time applications.",
+      "video_link": "https://www.youtube.com/embed/8u1o-OmOeGQ?si=iUdlyc917CXsPHBj",
+      "some_code_example": "console.log('Hello from Node.js!');"
+    },
+    {
+      "id": 2,
+      "topic_name": "Setting up Node.js",
+      "description": "To start developing with Node.js, you need to install Node.js from the official website. Once installed, you can start building your server-side JavaScript applications. Node.js comes with npm (Node Package Manager) to manage dependencies and libraries.",
+      "video_link": "https://www.youtube.com/embed/PToSHV6fSNU?si=lqIHhLFolLOd8U7e",
+      "some_code_example": "node -v\nnpm -v"
+    },
+    {
+      "id": 3,
+      "topic_name": "Creating a Basic Server with Node.js",
+      "description": "Node.js makes it easy to create a simple web server. The built-in 'http' module allows you to handle requests and send responses. This is fundamental for creating API endpoints or serving web pages in your applications.",
+      "video_link": "https://www.youtube.com/embed/g64BZXOTGu8?si=n1fQAh1AsP4yAzwk",
+      "some_code_example": "const http = require('http');\nhttp.createServer((req, res) => {\n  res.write('Hello, Node.js');\n  res.end();\n}).listen(3000);"
+    },
+    {
+      "id": 4,
+      "topic_name": "Modules in Node.js",
+      "description": "Node.js uses modules to organize code into reusable components. Modules can be built-in (e.g., 'http', 'fs') or created by developers. You can import modules using 'require()' and export your own using 'module.exports'. Modules help make your code cleaner and more maintainable.",
+      "video_link": "https://www.youtube.com/embed/2wOI62gjzmc?si=5BjlPVcEFRNhhUn_",
+      "some_code_example": "const fs = require('fs');\nfs.readFile('example.txt', 'utf8', (err, data) => {\n  if (err) throw err;\n  console.log(data);\n});"
+    },
+    {
+      "id": 5,
+      "topic_name": "Asynchronous Programming in Node.js",
+      "description": "Node.js operates asynchronously, meaning operations like file reading or HTTP requests do not block the program. Callbacks, Promises, and async/await are common techniques for handling asynchronous tasks in Node.js, enabling non-blocking behavior and improved performance.",
+      "video_link": "https://www.youtube.com/embed/PoRJizFvM7s?si=2hQCzvcxIUnTbcfd",
+      "some_code_example": "fs.readFile('example.txt', 'utf8', (err, data) => {\n  if (err) throw err;\n  console.log(data);\n});"
+    },
+    {
+      "id": 6,
+      "topic_name": "npm (Node Package Manager)",
+      "description": "npm is the default package manager for Node.js, used to install and manage dependencies. With npm, you can find, install, and manage packages from the vast ecosystem of open-source libraries. npm helps you automate tasks and build more powerful applications.",
+      "video_link": "https://www.youtube.com/embed/J2P7TN_-AeQ?si=ENgktB3hG3T0kbQ5",
+      "some_code_example": "npm install express\nnpm init"
+    },
+    {
+      "id": 7,
+      "topic_name": "Express.js Framework",
+      "description": "Express.js is a minimal and flexible web application framework for Node.js. It simplifies routing, middleware handling, and request processing, making it easier to build RESTful APIs and web applications. Express.js is widely used in modern web development.",
+      "video_link": "https://www.youtube.com/embed/0QRFOsrBtXw?si=VtJwANBEwq05MPQL",
+      "some_code_example": "const express = require('express');\nconst app = express();\napp.get('/', (req, res) => {\n  res.send('Hello, Express!');\n});\napp.listen(3000);"
+    },
+    {
+      "id": 8,
+      "topic_name": "Working with Databases in Node.js",
+      "description": "Node.js can connect to various databases like MongoDB, MySQL, and PostgreSQL. Popular libraries like Mongoose (for MongoDB) or Sequelize (for SQL databases) simplify the interaction between Node.js and databases, allowing easy CRUD operations.",
+      "video_link": "https://www.youtube.com/embed/eIjbSH3Imb8?si=8B8TLYFvDodqoG0K",
+      "some_code_example": "const mongoose = require('mongoose');\nmongoose.connect('mongodb://localhost/test', { useNewUrlParser: true });"
+    },
+    {
+      "id": 9,
+      "topic_name": "Middleware in Express.js",
+      "description": "Middleware in Express.js is a function that processes requests before they reach the final route handler. Middleware functions can perform tasks like logging, authentication, error handling, and modifying the request or response objects.",
+      "video_link": "https://www.youtube.com/embed/giB3qGwOFGM?si=b-mWCNaFNtg0QAjp",
+      "some_code_example": "app.use((req, res, next) => {\n  console.log('Request received');\n  next();\n});"
+    },
+    {
+      "id": 10,
+      "topic_name": "Error Handling in Node.js",
+      "description": "Handling errors properly is crucial for building reliable Node.js applications. In Node.js, you can handle errors using try/catch blocks, custom error objects, or middleware in Express. Proper error handling ensures that your application remains stable even in unexpected situations.",
+      "video_link": "https://www.youtube.com/embed/mGPj-pCGS2c?si=U1ByeA6yLkOCMVn8",
+      "some_code_example": "app.use((err, req, res, next) => {\n  console.error(err);\n  res.status(500).send('Something went wrong!');\n});"
+    }
+  ]
+  
