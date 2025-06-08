@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-const mongoURI = "mongodb://localhost:27017/codeshalla"
+const mongoURI = "mongodb+srv://jashan:password@123@cluster0.y5pf8br.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 const connectToMongo = () => {
     mongoose.set('strictQuery', true)
